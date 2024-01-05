@@ -45,7 +45,7 @@ const userData = {
     {
       title: "Devmedium",
       link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      imgUrl: "/projects/devmedium.png",
     },
   ],
   about: {
