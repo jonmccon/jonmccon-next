@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  githubUsername: "jonmccon",
+  name: "Jonny McConnell",
+  designation: "Interdisciplinary Designer",
+  avatarUrl: "/avatar.jpg",
+  email: "jonmccon@gmail.com",
+  phone: "+1 2066177598",
+  address: "Seattle, WA",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -106,12 +106,12 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
+    instagram: "https://instagram.com/jonmccon",
+    twitter: "https://twitter.com/jonmccon",
+    linkedin: "https://linkedin.com/in/jonmccon",
+    github: "https://github.com/jonmccon",
+    // facebook: "https://facebook.com/",
+    // peerlist: "https://peerlist.io/manuarora",
   },
 };
 

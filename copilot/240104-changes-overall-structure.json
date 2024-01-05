@@ -1,0 +1,596 @@
+{
+  "requesterUsername": "jonmccon",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/jonmccon",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com"
+  },
+  "responderUsername": "GitHub Copilot",
+  "welcomeMessage": [
+    "Welcome, **@jonmccon**, I'm your Copilot and I'm here to help you get things done faster. You can also [start an inline chat session](command:workbench.action.quickchat.launchInlineChat).",
+    "I'm powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, and [share feedback](https://aka.ms/microsoft/vscode-copilot-release) so that we can learn and improve. Check out the [Copilot documentation](https://code.visualstudio.com/docs/editor/github-copilot#_chat-view) to learn more."
+  ],
+  "requests": [
+    {
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 10
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 11
+            },
+            "agent": {
+              "id": "workspace",
+              "metadata": {
+                "description": "Ask about your workspace",
+                "fullName": "Workspace",
+                "themeIcon": {
+                  "id": "code"
+                },
+                "hasSlashCommands": true,
+                "hasFollowups": true,
+                "isSecondary": true,
+                "sampleRequest": "How do I build this project?",
+                "supportIssueReporting": false
+              }
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 10,
+              "endExclusive": 309
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 11,
+              "endLineNumber": 1,
+              "endColumn": 310
+            },
+            "text": " I need to add a series of project pages with text and multiple images. The current setup here can build multiple outbound links with my user data. How should I modify this and other parts of this project? PLease provide an outline and I will ask for details on each step as I accomplish each piece.",
+            "kind": "text"
+          }
+        ],
+        "text": "@workspace I need to add a series of project pages with text and multiple images. The current setup here can build multiple outbound links with my user data. How should I modify this and other parts of this project? PLease provide an outline and I will ask for details on each step as I accomplish each piece."
+      },
+      "response": [
+        {
+          "value": "Sure, here's a high-level outline of the steps you might take to add project pages with text and multiple images:\n\n1. **Create a new page for each project**: In your [`pages`](command:_github.copilot.openRelativePath?%5B%22pages%22%5D \"pages\") directory, create a new JavaScript file for each project. The name of the file will be the route for that project's page. For example, if you have a project called \"MyProject\", you could create a file called `myProject.js` in the [`pages`](command:_github.copilot.openRelativePath?%5B%22pages%22%5D \"pages\") directory.\n\n2. **Create a new React component for the project page**: In each new page file, create a new React component that will display the project's information. This component will receive the project's data as props.\n\n3. **Modify the [`userData`](command:_github.copilot.openSymbolInFile?%5B%22constants%2Fdata.js%22%2C%22userData%22%5D \"constants/data.js\") object**: In your [`constants/data.js`](command:_github.copilot.openRelativePath?%5B%22constants%2Fdata.js%22%5D \"constants/data.js\") file, add more information for each project. This could include a description, a list of images, and any other data you want to display on the project page.\n\n4. **Pass the project data to the project page component**: In your [`Projects.js`](command:_github.copilot.openRelativePath?%5B%22components%2FProjects.js%22%5D \"components/Projects.js\") file, modify the [`ProjectCard`](command:_github.copilot.openSymbolInFile?%5B%22components%2FProjects.js%22%2C%22ProjectCard%22%5D \"components/Projects.js\") component to link to the new project page instead of an external link. Pass the project's data to the project page component as props.\n\n5. **Display the project data on the project page**: In your project page component, use the props to display the project's information. You can use the `img` element to display the project's images.\n\n6. **Style the project page**: Use CSS or a CSS-in-JS library to style the project page. Make sure the text is readable and the images are displayed in a way that makes sense for your project.\n\n7. **Test your changes**: After you've made these changes, test your application to make sure the project pages are working correctly. You should be able to click on a project in the [`Projects`](command:_github.copilot.openSymbolInFile?%5B%22components%2FProjects.js%22%2C%22Projects%22%5D \"components/Projects.js\") component and be taken to that project's page, where you can see the project's information and images.\n\n8. **Repeat for each project**: Repeat these steps for each project you want to add to your application.\n\nRemember, this is just a high-level outline. The specific steps you'll need to take will depend on the specifics of your project and your personal coding style.",
+          "isTrusted": {
+            "enabledCommands": [
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile",
+              "_github.copilot.openRelativePath",
+              "_github.copilot.openSymbolInFile"
+            ]
+          },
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "followups": [
+        {
+          "kind": "reply",
+          "message": "How can I modify the project page component to display the project's information and images?",
+          "title": "How can I modify the project page component to display the project's information and images?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "id": "workspace",
+        "metadata": {
+          "description": "Ask about your workspace",
+          "fullName": "Workspace",
+          "themeIcon": {
+            "id": "code"
+          },
+          "hasSlashCommands": true,
+          "hasFollowups": true,
+          "isSecondary": true,
+          "sampleRequest": "How do I build this project?",
+          "supportIssueReporting": false
+        }
+      },
+      "usedContext": {
+        "documents": [],
+        "kind": "usedContext"
+      },
+      "contentReferences": [
+        {
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/AboutMe.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/AboutMe.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/AboutMe.js",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 143,
+              "startColumn": 1,
+              "endLineNumber": 164,
+              "endColumn": 134
+            }
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/monny/Github/jonmccon-next/components/FavouriteProjects.js",
+            "external": "file:///Users/monny/Github/jonmccon-next/components/FavouriteProjects.js",
+            "path": "/Users/monny/Github/jonmccon-next/components/FavouriteProjects.js",
+            "scheme": "file"
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+            "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+            "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+            "scheme": "file"
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/constants/data.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/constants/data.js",
+              "path": "/Users/monny/Github/jonmccon-next/constants/data.js",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 38,
+              "startColumn": 1,
+              "endLineNumber": 101,
+              "endColumn": 48
+            }
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/monny/Github/jonmccon-next/pages/index.js",
+            "external": "file:///Users/monny/Github/jonmccon-next/pages/index.js",
+            "path": "/Users/monny/Github/jonmccon-next/pages/index.js",
+            "scheme": "file"
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/monny/Github/jonmccon-next/pages/projectDetail.js",
+            "external": "file:///Users/monny/Github/jonmccon-next/pages/projectDetail.js",
+            "path": "/Users/monny/Github/jonmccon-next/pages/projectDetail.js",
+            "scheme": "file"
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/monny/Github/jonmccon-next/pages/projects.js",
+            "external": "file:///Users/monny/Github/jonmccon-next/pages/projects.js",
+            "path": "/Users/monny/Github/jonmccon-next/pages/projects.js",
+            "scheme": "file"
+          },
+          "kind": "reference"
+        },
+        {
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/README.md",
+              "external": "file:///Users/monny/Github/jonmccon-next/README.md",
+              "path": "/Users/monny/Github/jonmccon-next/README.md",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 71,
+              "endColumn": 3
+            }
+          },
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 124
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 125
+            },
+            "text": "Is there a way to use getstaticprops to dynamically generate the pages instead of making individual components for each one?",
+            "kind": "text"
+          }
+        ],
+        "text": "Is there a way to use getstaticprops to dynamically generate the pages instead of making individual components for each one?"
+      },
+      "response": [
+        {
+          "value": "Yes, you can use Next.js's `getStaticPaths` and `getStaticProps` functions to dynamically generate pages based on your data. Here's a high-level outline of how you could do this:\n\n1. **Create a new dynamic page**: In your `pages` directory, create a new file that will serve as the template for your project pages. The name of the file should be enclosed in square brackets to indicate that it's a dynamic route. For example, you could create a file called `[projectId].js`.\n\n2. **Implement `getStaticPaths`**: In your new dynamic page file, implement the `getStaticPaths` function. This function should return an array of possible values for `projectId`. You can get these values from your `userData` object.\n\n3. **Implement `getStaticProps`**: Also in your dynamic page file, implement the `getStaticProps` function. This function should take the current `projectId` as a parameter and return the corresponding project data from your `userData` object.\n\n4. **Create a new React component for the project page**: In your dynamic page file, create a new React component that will display the project's information. This component will receive the project's data as props from `getStaticProps`.\n\n5. **Modify the `ProjectCard` component**: In your `Projects.js` file, modify the `ProjectCard` component to link to the new dynamic project page instead of an external link. You can do this by using Next.js's `Link` component.\n\nHere's a rough example of what your dynamic page file might look like:\n\n```javascript\nimport { useRouter } from 'next/router'\nimport userData from '@constants/data'\n\nexport async function getStaticPaths() {\n  // Get the paths we want to pre-render based on projects\n  const paths = userData.projects.map((project) => ({\n    params: { projectId: project.id.toString() },\n  }))\n\n  // We'll pre-render only these paths at build time.\n  // { fallback: false } means other routes should 404.\n  return { paths, fallback: false }\n}\n\nexport async function getStaticProps({ params }) {\n  // Fetch necessary data for the blog post using params.id\n  const project = userData.projects.find((project) => project.id.toString() === params.projectId)\n  return { props: { project } }\n}\n\nexport default function Project({ project }) {\n  // Render post...\n}\n```\n\nRemember to replace `projectId` and `id` with whatever you're using to identify your projects in your `userData` object.",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "followups": [
+        {
+          "kind": "reply",
+          "message": "How can I style the dynamically generated project pages in Next.js?",
+          "title": "How can I style the dynamically generated project pages in Next.js?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "id": "",
+        "metadata": {
+          "description": "",
+          "fullName": "GitHub Copilot",
+          "hasSlashCommands": true,
+          "hasFollowups": true,
+          "isDefault": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following agents which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=vscode) in [Visual Studio Code](https://code.visualstudio.com/docs/editor/artificial-intelligence).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/getting-started-with-github-copilot?tool=vscode": {
+                "$mid": 1,
+                "path": "/copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode"
+              },
+              "https://code.visualstudio.com/docs/editor/artificial-intelligence": {
+                "$mid": 1,
+                "path": "/docs/editor/artificial-intelligence",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        }
+      },
+      "usedContext": {
+        "documents": [
+          {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "scheme": "file"
+            },
+            "version": 63,
+            "ranges": [
+              {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 44,
+                "endColumn": 83
+              }
+            ]
+          }
+        ],
+        "kind": "usedContext"
+      },
+      "contentReferences": [
+        {
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 44,
+              "endColumn": 83
+            }
+          },
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 67
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 68
+            },
+            "text": "How can I style the dynamically generated project pages in Next.js?",
+            "kind": "text"
+          }
+        ],
+        "text": "How can I style the dynamically generated project pages in Next.js?"
+      },
+      "response": [
+        {
+          "value": "Styling in Next.js can be done in several ways, including CSS-in-JS libraries like styled-components or emotion, CSS Modules, or global CSS. Here's an example of how you might style your project pages using CSS Modules:\n\n1. **Create a CSS Module for the project page**: In the same directory as your dynamic page file (`[projectId].js`), create a new CSS file with the same name, but with a `.module.css` extension. For example, you could create a file called `projectId.module.css`. This file will contain the styles for your project page.\n\n2. **Write your styles**: In your new CSS Module file, write the CSS rules for your project page. Each rule should be a class that you can apply to the elements on your page. For example:\n\n```css\n.projectContainer {\n  padding: 20px;\n  background-color: white;\n}\n\n.projectTitle {\n  font-size: 2em;\n  color: black;\n}\n\n.projectImage {\n  width: 100%;\n  height: auto;\n}\n```\n\n3. **Import the CSS Module into your project page**: In your dynamic page file, import the CSS Module. You can then use the imported styles as classes in your JSX. For example:\n\n```javascript\nimport styles from './projectId.module.css'\n\nexport default function Project({ project }) {\n  return (\n    <div className={styles.projectContainer}>\n      <h1 className={styles.projectTitle}>{project.title}</h1>\n      <img className={styles.projectImage} src={project.imgUrl} alt={project.title} />\n      {/* Rest of your project data here */}\n    </div>\n  )\n}\n```\n\nRemember, this is just one way to style your pages in Next.js. Depending on your project's needs and your personal preference, you might choose to use a different method.",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "followups": [
+        {
+          "kind": "reply",
+          "message": "How can I add navigation to the dynamically generated project pages in Next.js?",
+          "title": "How can I add navigation to the dynamically generated project pages in Next.js?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "id": "",
+        "metadata": {
+          "description": "",
+          "fullName": "GitHub Copilot",
+          "hasSlashCommands": true,
+          "hasFollowups": true,
+          "isDefault": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following agents which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=vscode) in [Visual Studio Code](https://code.visualstudio.com/docs/editor/artificial-intelligence).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/getting-started-with-github-copilot?tool=vscode": {
+                "$mid": 1,
+                "path": "/copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode"
+              },
+              "https://code.visualstudio.com/docs/editor/artificial-intelligence": {
+                "$mid": 1,
+                "path": "/docs/editor/artificial-intelligence",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        }
+      },
+      "usedContext": {
+        "documents": [
+          {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "scheme": "file"
+            },
+            "version": 63,
+            "ranges": [
+              {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 44,
+                "endColumn": 83
+              }
+            ]
+          }
+        ],
+        "kind": "usedContext"
+      },
+      "contentReferences": [
+        {
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 44,
+              "endColumn": 83
+            }
+          },
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 79
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 80
+            },
+            "text": "How can I add navigation to the dynamically generated project pages in Next.js?",
+            "kind": "text"
+          }
+        ],
+        "text": "How can I add navigation to the dynamically generated project pages in Next.js?"
+      },
+      "response": [
+        {
+          "value": "You can use the `Link` component from Next.js to navigate to the dynamically generated project pages. Here's how you can modify the `ProjectCard` component to link to the project pages:\n\n```javascript\nimport Link from 'next/link'\n// ...\n\nconst ProjectCard = ({ title, link, imgUrl, number }) => {\n  return (\n    <Link href={`/projects/${link}`}>\n      <a className=\"w-full block shadow-2xl\">\n        <div className=\"relative overflow-hidden\">\n          <div className=\"h-72 object-cover\">\n            <img\n              src={imgUrl}\n              alt=\"portfolio\"\n              className=\"transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full\"\n            />\n          </div>\n          <h1 className=\"absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2\">\n            {title}\n          </h1>\n          <h1 className=\"absolute bottom-10 left-10 text-gray-50 font-bold text-xl\">\n            {/* ... */}\n          </h1>\n        </div>\n      </a>\n    </Link>\n  )\n}\n```\n\nIn this example, I'm assuming that the `link` prop is the unique identifier for each project, and that you've set up your dynamic routes as `/projects/[projectId]`. If your setup is different, you'll need to adjust the `href` in the `Link` component accordingly.",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "followups": [
+        {
+          "kind": "reply",
+          "message": "How can I pass additional data to the dynamically generated project pages in Next.js?",
+          "title": "How can I pass additional data to the dynamically generated project pages in Next.js?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "id": "",
+        "metadata": {
+          "description": "",
+          "fullName": "GitHub Copilot",
+          "hasSlashCommands": true,
+          "hasFollowups": true,
+          "isDefault": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following agents which have specialized expertise and can perform actions:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=vscode) in [Visual Studio Code](https://code.visualstudio.com/docs/editor/artificial-intelligence).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/getting-started-with-github-copilot?tool=vscode": {
+                "$mid": 1,
+                "path": "/copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode"
+              },
+              "https://code.visualstudio.com/docs/editor/artificial-intelligence": {
+                "$mid": 1,
+                "path": "/docs/editor/artificial-intelligence",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              }
+            }
+          },
+          "supportIssueReporting": false
+        }
+      },
+      "usedContext": {
+        "documents": [
+          {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "scheme": "file"
+            },
+            "version": 63,
+            "ranges": [
+              {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 44,
+                "endColumn": 83
+              }
+            ]
+          }
+        ],
+        "kind": "usedContext"
+      },
+      "contentReferences": [
+        {
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "external": "file:///Users/monny/Github/jonmccon-next/components/Projects.js",
+              "path": "/Users/monny/Github/jonmccon-next/components/Projects.js",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 44,
+              "endColumn": 83
+            }
+          },
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "providerId": "copilot"
+}
