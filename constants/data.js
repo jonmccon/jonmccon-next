@@ -10,11 +10,13 @@ const userData = {
     {
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
+      images: ["/projects/devmedium.png", "/projects/devmedium.png"],
       imgUrl: "/tmk.jpg",
     },
     {
       title: "PlaceholderTech",
       link: "https://placeholdertech.in",
+      images: ["/projects/devmedium.png"],
       imgUrl: "/placeholdertech.png",
     },
     {
