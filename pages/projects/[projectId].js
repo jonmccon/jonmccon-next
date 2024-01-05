@@ -1,7 +1,6 @@
 // pages/projects/[projectId].js
 import { getAllProjectIds } from '../../lib/projects'
 import userData from "@constants/data";
-import Image from 'next/image'
 import ProjectDetail from '@components/ProjectDetail';
 
 export async function getStaticPaths() {
@@ -26,15 +25,6 @@ export async function getStaticProps({ params }) {
     }
 }
 
-export default function ProjectDetail({ projectData }) {
-    return (
-        <div>
-            <h1>{projectData.title}</h1>
-            <p>{projectData.description}</p>
-            {projectData.images.map((img, index) => (
-                <Image key={index} src={img} width={500} height={300} />
-            ))}
-            {/* Render other project data... */}
-        </div>
-    )
+export default function Project({ projectData }) {
+    return <ProjectDetail projectData={projectData} />
 }

@@ -11,8 +11,8 @@ export default function ProjectDetail({ projectData }) {
         src={img} 
         width={1000} 
         height={3000} 
-        layout="responsive" 
         placeholder="blur"
+        blurDataURL="/avatar.jpg" // find a smaller image to use here
         />
       ))}
       {/* Render other project data... */}
