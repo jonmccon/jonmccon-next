@@ -10,20 +10,89 @@ const userData = {
     {
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
-      images: ["/projects/devmedium.png", "/projects/devmedium.png"],
-      imgUrl: "/tmk.jpg",
+      thumbURL: "/tmk.jpg", // this is for the thumbnail image on the projects page 
+      sections: [
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+      ],
+      
     },
     {
       title: "PlaceholderTech",
       link: "https://placeholdertech.in",
-      images: ["/projects/devmedium.png"],
-      imgUrl: "/placeholdertech.png",
-    },
-    {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      images: ["/projects/devmedium.png", "/projects/devmedium.png"],
-      imgUrl: "/portfolio.png",
+      thumbURL: "/placeholdertech.png",
+      sections: [
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+      ],
     },
   ],
   about: {

@@ -18,7 +18,7 @@ export default function Projects() {
             <ProjectCard
               title={proj.title}
               link={proj.link}
-              imgUrl={proj.imgUrl}
+              thumbURL={proj.thumbURL}
               number={`${idx + 1}`}
             />
           ))}
@@ -28,14 +28,14 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, thumbURL, number }) => {
   return (
     <Link href={`/projects/${encodeURIComponent(title.replace(/\s+/g, '-'))}`} className="w-full block shadow-2xl">
       
         <div className="relative overflow-hidden">
           <div className="h-72 object-cover">
             <img
-              src={imgUrl}
+              src={thumbURL}
               alt="portfolio"
               className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
             />
