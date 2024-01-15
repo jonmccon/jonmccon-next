@@ -9,6 +9,15 @@ const userData = {
   projects: [
     {
       title: "Tailwind Master Kit",
+      tags: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "HeadlessUI",
+        "Heroicons",
+        "Framer Motion",
+      ],
+      featured: true,
       link: "https://tailwindmasterkit.com",
       thumbURL: "/tmk.jpg", // this is for the thumbnail image on the projects page 
       sections: [
@@ -53,6 +62,15 @@ const userData = {
     },
     {
       title: "PlaceholderTech",
+      featured: false,
+      tags: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "HeadlessUI",
+        "Heroicons",
+        "Framer Motion",
+      ],
       link: "https://placeholdertech.in",
       thumbURL: "/placeholdertech.png",
       sections: [
@@ -71,8 +89,10 @@ const userData = {
         {
           subtitle: "Section Title",
           images: [
-            "/projects/devmedium.png", 
-            "/projects/devmedium.png"
+            "/projects/dev.png", 
+            "/projects/devmed.png",
+            "/projects/devmediumA.png",
+            "/projects/devmediumB.png",
           ],
           description: [
             `thing 1`,
