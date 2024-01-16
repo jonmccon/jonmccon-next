@@ -19,10 +19,7 @@ const currentProject = projectId ? userData.projects.find(
       project.title !== currentProject.title &&
       project.tags.some((tag) => currentProject.tags.includes(tag))
   ) : [];
-
-  console.log(currentProject);
-  console.log(relatedProjects);
-
+  
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
