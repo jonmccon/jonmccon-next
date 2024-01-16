@@ -41,6 +41,7 @@ export default function FavouriteProjects() {
           {/* Single card */}
           {featuredProjects.map((project, index) => (
           <a
+            key={index}
             href="https://tailwindmasterkit.com"
             className="w-full block col-span-3 shadow-2xl"
           >

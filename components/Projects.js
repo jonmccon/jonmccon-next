@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import userData from "@constants/data";
 
-export default function Projects() {
+export default function Projects({ projects }) {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -14,8 +14,9 @@ export default function Projects() {
       {/* dynamic linking of projects */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          {userData.projects.map((proj, idx) => (
+          {projects.map((proj, idx) => (
             <ProjectCard
+              key={idx}
               title={proj.title}
               link={proj.link}
               thumbURL={proj.thumbURL}
