@@ -9,6 +9,10 @@ const userData = {
   projects: [
     {
       title: "Tailwind Master Kit",
+      tags: [
+        "boop",
+      ],
+      featured: true,
       link: "https://tailwindmasterkit.com",
       thumbURL: "/tmk.jpg", // this is for the thumbnail image on the projects page 
       sections: [
@@ -52,7 +56,65 @@ const userData = {
       
     },
     {
-      title: "PlaceholderTech",
+      title: "Second Project",
+      tags: [
+        "beep",
+      ],
+      featured: true,
+      link: "https://tailwindmasterkit.com",
+      thumbURL: "/tmk.jpg", // this is for the thumbnail image on the projects page 
+      sections: [
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+        {
+          subtitle: "Section Title",
+          images: [
+            "/projects/devmedium.png", 
+            "/projects/devmedium.png"
+          ],
+          description: [
+            `thing 1`,
+            `thing 2`,
+            `thing 3`,
+          ]
+        },
+      ],
+      
+    },
+    {
+      title: "Placeholder Tech",
+      featured: false,
+      tags: [
+        "boop",
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "HeadlessUI",
+        "Heroicons",
+        "Framer Motion",
+      ],
       link: "https://placeholdertech.in",
       thumbURL: "/placeholdertech.png",
       sections: [
@@ -72,7 +134,9 @@ const userData = {
           subtitle: "Section Title",
           images: [
             "/projects/devmedium.png", 
-            "/projects/devmedium.png"
+            "/projects/devmedium.png",
+            "/projects/devmedium.png",
+            "/projects/devmedium.png",
           ],
           description: [
             `thing 1`,
