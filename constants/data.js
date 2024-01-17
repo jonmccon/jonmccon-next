@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "jonmccon",
   name: "Jonny McConnell",
-  designation: "Interdisciplinary Designer",
+  designation: "Hybrid Creative",
   avatarUrl: "/avatar.jpg",
   email: "jonmccon@gmail.com",
   phone: "+1 2066177598",

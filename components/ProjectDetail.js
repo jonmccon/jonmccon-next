@@ -21,15 +21,15 @@ const currentProject = projectId ? userData.projects.find(
   ) : [];
   
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+    <section className="bg-white dark:bg-stone-800">
+      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-stone-800">
       {currentProject && (
         <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           {currentProject.title}
         </h1>
       )}
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] -mt-10 dark:bg-stone-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           {currentProject && currentProject.sections.map((section, index) => (
             <div key={index}>
@@ -37,7 +37,7 @@ const currentProject = projectId ? userData.projects.find(
                 {section.subtitle}
               </h2>
               {section.description.map((desc, descIndex) => (
-                <p key={descIndex} className="text-xl text-gray-700 mb-4 dark:text-gray-300">
+                <p key={descIndex} className="text-xl text-stone-700 mb-4 dark:text-stone-300">
                   {desc}
                 </p>
               ))}

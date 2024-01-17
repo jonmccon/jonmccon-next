@@ -7,16 +7,16 @@ export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState(repositories);
 
   return (
-    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
+    <section className="bg-[#F1F1F1] -mt-40 dark:bg-stone-900 pb-40">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-stone-500 my-20 md:my-0 md:text-white dark:text-stone-600 text-center lg:text-left">
             Latest Code
           </h1>
 
           <a
             href={`https://github.com/${userData.githubUsername}`}
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-stone-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,10 +52,10 @@ export default function LatestCode({ repositories }) {
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
-      <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
+      <h1 className="font-semibold text-xl dark:text-stone-200 text-stone-700">
         {latestRepo.name}
       </h1>
-      <p className="text-base font-normal my-4 text-gray-500">
+      <p className="text-base font-normal my-4 text-stone-500">
         {latestRepo.description}
       </p>
       <a
