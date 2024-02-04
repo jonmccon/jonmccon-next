@@ -7,25 +7,47 @@ const userData = {
   phone: "+1 2066177598",
   address: "Seattle, WA",
   projects: [
+    //
+    // TOP FEATURED PROJECTS
+    //    
     {
-      title: "Tailwind Master Kit",
+      title: "Resonance AI",
+      // Do I need a subtitle here?
+      // subtitle: "Content Performance Analysis",
       tags: [
-        "boop",
+        "ai",
+        "ml",
+        "react",
+        "product",
+        "uxui",
+        "startup",
+        "engineering",
       ],
       featured: true,
-      link: "https://tailwindmasterkit.com",
+      // link: "https://tailwindmasterkit.com", dropping this to check if it links to the project page
       thumbURL: "/tmk.jpg", // this is for the thumbnail image on the projects page 
       sections: [
         {
-          subtitle: "Section Title",
+          subtitle: "Teaching the machine to watch tv",
+          description: [
+            `A small startup of about a dozen folks, I came on as the sole designer tasked with a refresh and reapproach
+            to the company. I worked closely with the product owner and machine learning scientists to understand capabilities of
+            the exisiting product and pain points in the exisiting customer feedback, as well as the company's customer acquisition 
+            and reporting processes.`,
+            `Reimagining the product as a data visualization tool, I created an updated brand and visual language for the company and platform.
+            Initially the insights were being represented as individual data points and the customer success group needed to decipher 
+            and present the story of their work to customers for each report. After developing a comprehensive understanding of how the 
+            data was being captured and the story the company wanted to tell, I created a new visual language and data visualization system. 
+            I prototyped my data visualizations in Plotly & Databricks consolidating each show's performance and, in collaboration with Dan Wiegand, 
+            piped them into a custom email template I built that allowed the customer success team to automate the process of consolidating and 
+            presenting actionable insights being sent out daily and weekly to each customer. The result was a dramatic increase in customer 
+            satisfaction and retention, as well as a major decrease in hours spent manually developing reports.`,
+            ``,
+            ``,
+          ],
           images: [
             "/projects/devmedium.png", 
             "/projects/devmedium.png"
-          ],
-          description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
           ]
         },
         {
@@ -61,7 +83,7 @@ const userData = {
         "beep",
       ],
       featured: true,
-      link: "https://tailwindmasterkit.com",
+      // link: "https://tailwindmasterkit.com",
       thumbURL: "/tmk.jpg", // this is for the thumbnail image on the projects page 
       sections: [
         {
@@ -103,6 +125,9 @@ const userData = {
       ],
       
     },
+    //
+    // Rest of the Projects
+    //
     {
       title: "Placeholder Tech",
       featured: false,
