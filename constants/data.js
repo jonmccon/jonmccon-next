@@ -168,11 +168,21 @@ const userData = {
       thumbURL: "/placeholdertech.png",
       sections: [
         {
-          subtitle: "Section Title",
+          subtitle: "On-Chain HIPAA Compliant Medical Records",
           description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
+            `I spent most of 2020 looking at opportunities to help the general public navigate the public health crisis. 
+            Lumedic, a Providence portfolio company, had an existing broad use medical-record-on-blockchain technology that 
+            we pivoted to serve as a single use digital passport. Our product planning & research followed as the science & 
+            politics evolved throughout the year, first as a time oriented test result passport and eventually also containing
+            vaccine status card.`,
+            `The app was originally based on an existing structure from Connect.me that we audited from a user experience pov 
+            with the goal of creating a Holder & Verifier handshake scenario. My work centered around architecting the 
+            multimodal experience of permissions, mobile devices scanning QR codes on desktop web apps, and on each other’s 
+            devices, working with user expectations and building prototypes with my UX Research partner Jeanine Ledoux. 
+            In addition to serving as the daily scrum designer for the web app and both iOS & Android releases. `,
+            `Wireframing was done in Miro and Figma. The visual branding work was built on top of IBM’s Carbon design system. Illustrations by Smashing Ideas.
+            -
+            Available on iOS & Android`,
           ],
           images: [
             "/projects/devmedium.png", 
@@ -266,7 +276,7 @@ const userData = {
   // Rest of the Projects
   //
   {
-    title: "Lumedic",
+    title: "Lumedssic",
     featured: false,
     tags: [
       "boop",
