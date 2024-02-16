@@ -240,10 +240,11 @@ const userData = {
             in-person scenarios with the goal of reducing the time to treatment and increasing the quality of care. This work was done in tandem
             with our enigneering team that started with developing the secure backend video call infrastructure and then transitioned into 
             developing the frontend patient and doctor facing applications.`,
-            `Secondly, a quartet of established care services were rearchitected as a suite of 
-            Express Care options and brought together on a shared marketing & scheduling platform with a multitenant architecture.`,
-            `thing 2`,
-            `thing 3`,
+            `The second effort was rearchitecting a quartet of established care services as a suite of Express Care options on a shared marketing 
+            & scheduling platform with a multitenant architecture. This leveraged the video chat infrastructure and was designed to further establish
+            use in the consumer market. This was a large project that required a lot of collaboration with the engineering team to ensure that the
+            new platform was able to handle the load of the existing services and the new services. Prototyping was done in Sketch and Invision, tested
+            in live environments, and iterated on until we found the right balance of business goals and patient understanding.`,
           ],
           images: [
             "/projects/devmedium.png", 
@@ -253,20 +254,17 @@ const userData = {
         {
           subtitle: "Process",
           description: [
-            `I also helped develop a visual language for the suite of provider & patient healthcare tools. A team process of leveraging Abstract (git), 
-            Sketch (layout), Invision (public prototyping), Zeplin (internal prototyping), along with the Adobe Creative Cloud (production). The visual 
-            design system was based on Google's Material language, but out of the box it felt too cold for the healthcare world. After partnering with 
-            engineering, we developed a solution of taking React Toolbox and subbing in a humanistic typeface, rounded some corners and generally opened 
-            up the vanilla styles (more padding). By working with these tools, we were able to more fluently migrate interaction & visual work into React 
-            components via direct collaboration in Storybook.`,
-            `Interactive prototype (Invision / Craft)
-            -
-            Team presentations
-            Integrated Consumer Experience - Web & Native design preview
-            Scheduling & Registration wireframe review
-            Account Management wireframe review
-            -
-            Available Providence locations`,
+            `I also helped develop a visual language for the suite of provider & patient healthcare tools. A team process of leveraging Abstract, 
+            Sketch, Invision, Zeplin, along with the Adobe Creative Cloud when all these tools were seperatly good at their individual strengths. 
+            The visual design system was based on Google's early Material language before it was more publicly available. Out of the box it felt too 
+            cold for the healthcare world so I took on a reverse design process to understand the components and changes to humanize the ui. 
+            Partnering with the more frontend focused engineering peers, we developed a solution of taking React Toolbox and subbing in a humanistic typeface, 
+            rounded some corners and generally opened up the proportions across the system (more padding) while maintaining the existing behaviors. 
+            By working with these tools, we were able to more fluently migrate interaction & visual work into React components via direct collaboration in Storybook.`,
+            // `Interactive prototype (Invision / Craft) - https://invis.io/C3GJN9VJ6TE#/287567188_Top_-_Virtual_Landing
+            // Integrated Consumer Experience - Web & Native design preview - https://drive.google.com/open?id=1ss_K_amsJ9OYZBD8vctijzRE01LrXCpc_uov3vu_fBA
+            // Scheduling & Registration wireframe review - https://drive.google.com/open?id=1sx5oSIAm3E5Iy58XSNeil_Sm9JZLPkbQ8cuO9EfFSzI
+            // Account Management wireframe review - https://drive.google.com/open?id=1le_gtlHi5ts94gTg8oRfCq3uBW-u4xO7HZUxbrvMl9o`            
           ],
           images: [
             "/projects/devmedium.png", 
@@ -281,57 +279,269 @@ const userData = {
   // Rest of the Projects
   //
   {
-    title: "Lumedssic",
+    title: "The Plot Quickens",
     featured: false,
     tags: [
-      "boop",
-      "React",
-      "Next.js",
-      "TailwindCSS",
-      "HeadlessUI",
-      "Heroicons",
-      "Framer Motion",
+      "arudino",
+      "p5",
+      "generative",
+      "raspberry pi",
+      "store",
+      "founder",
+      "photogrammetry",
     ],
-    link: "https://placeholdertech.in",
+    // link: "https://placeholdertech.in",
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "Section Title",
+        subtitle: "Generative studies in p5, photogrammetry & print making",
+        description: [
+          `Originally in 2016 I built a single head printer from a Makeblock kit to draw vectors and while that was fun, 
+          I decided that multi color registration and complex cnc instructions were needed. I didn't feel I had 
+          enough control over the fidelity of the drawings. So I stripped all the electronics and rebuilt the 
+          plotter with an Arduino + gShield, a gentler printhead, and much more power. These refinements also
+          required me to learn 3d printing in order to make the custom components I needed.`,
+          `I have split my time with the plotting between extracting vectors from photogrammetry models and 
+          generative art based primarily in p5js. Early scans with a sony a6 were actually somewhat troublesome 
+          dealing with focus and resolution.Many forums later, I was able to build a rotating turntable and 
+          python server that ran on my phone to take photos which allows for consistent detail on smaller objects
+          and convinced me that phone cameras are an easier go for photogrammetry work (in common less controlled scenarios).`,
+          `This work is for sale @theplotquickens on instagram and theplotquickens.today`,
+        ],
         images: [
           "/projects/devmedium.png", 
           "/projects/devmedium.png"
         ],
-        description: [
-          `thing 1`,
-          `thing 2`,
-          `thing 3`,
-        ]
       },
+    ],
+  },
+  {
+    title: "Seattle Creative Directory",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
       {
-        subtitle: "Section Title",
-        images: [
-          "/projects/devmedium.png", 
-          "/projects/devmedium.png",
-          "/projects/devmedium.png",
-          "/projects/devmedium.png",
+        subtitle: "Learning react to catalog my neighbors",
+        description: [
+          `Seattle's creative community has a strong identity but its data is disparate, resources exist but aren't 
+          comprehensive or easy to find. So I'm starting to catalog the design studios, inhouse product groups, architecture firms, 
+          printers, photographers, letterers (and everyone in between) so we can support each other.`,
+          `In tandem with the website, I'm recording audio interviews with the owners of these companies in an effort to 
+          understand them, but also to understand what it means to be a creative professional.`,
+          // `A nice profile of the work was written up in Marketing NW - https://bit.ly/New-Sea-Directory
+          // Available on Github - https://github.com/jonmccon/scd-next
+          // SeattleCreative.Directory - https://seattlecreative.directory/
+          // SeattleCreative.Show - https://seattlecreative.show/`,
         ],
-        description: [
-          `thing 1`,
-          `thing 2`,
-          `thing 3`,
-        ]
-      },
-      {
-        subtitle: "Section Title",
         images: [
           "/projects/devmedium.png", 
           "/projects/devmedium.png"
         ],
+        subtitle: "Process",
         description: [
-          `thing 1`,
-          `thing 2`,
-          `thing 3`,
-        ]
+          `After an offhand comment from a friend, I prototyped the phonebook just in a simple google sheet and collected 
+          multiple mailing lists from multiple controibutors. This data was then used in a Gatsby app to create a static
+          page with limited tagging, filtering, and a lot of upkeep work.`,
+          `Between freelance contracts I decided that it was a great means to learn Next.js and migrate all the static markdown data 
+          into a postgres database. This allowed for a more robust search and filter system, and a more dynamic user experience.`
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "PROJECT",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "TITLE",
+        description: [
+          `DESCRIPTION`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
       },
     ],
   },
