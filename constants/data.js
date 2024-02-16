@@ -319,7 +319,21 @@ const userData = {
     title: "Seattle Creative Directory",
     featured: false,
     tags: [
-      "00",
+      "nextjs",
+      "postgres",
+      "react",
+      "seo",
+      "startup",
+      "uxui",
+      "branding",
+      "dataviz",
+      "email",
+      "engineering",
+      "founder",
+      "product",
+      "research",
+      "sales",
+      "gatsby",
     ],
     // link: "https://placeholdertech.in",
     thumbURL: "/placeholdertech.png",
@@ -343,7 +357,7 @@ const userData = {
         ],
         subtitle: "Process",
         description: [
-          `After an offhand comment from a friend, I prototyped the phonebook just in a simple google sheet and collected 
+          `After encouragement from a friend, I prototyped the phonebook just in a simple google sheet and collected 
           multiple mailing lists from multiple controibutors. This data was then used in a Gatsby app to create a static
           page with limited tagging, filtering, and a lot of upkeep work.`,
           `Between freelance contracts I decided that it was a great means to learn Next.js and migrate all the static markdown data 
@@ -357,18 +371,29 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "Vinewars",
     featured: false,
     tags: [
-      "00",
+      "illustration",
+      "research",
+      "sales",
+      "uxui",
+      "branding",
+      "dataviz",
     ],
     // link: "https://placeholdertech.in",
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "TITLE",
+        subtitle: "Hacking Twitter into a game",
         description: [
-          `DESCRIPTION`,
+          `When Vine launched there was no way to view the best videos and no means of pulling them 
+          into an interface outside of the app itself. I partnered with Angel Samano to not only take 
+          a crack at scraping the Twitter API but make it into its own game. That team at Vine has since built, 
+          and shuttered, their first party API for exploring content.`,
+          `Under the direction of Tether Labs & lots of 16-bit illustrations later, we had a working prototype 
+          for the collection, voting, ranking and sharing of the best Vines. Sometimes the best work isn't public, 
+          but sometimes it's worth the trouble to give life to new tools.`,
         ],
         images: [
           "/projects/devmedium.png", 
@@ -378,18 +403,35 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "AIGA Seattle",
     featured: false,
     tags: [
-      "00",
+      "wordpress",
+      "branding",
+      "community",
+      "dataviz",
+      "email",
     ],
     // link: "https://placeholdertech.in",
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "TITLE",
+        subtitle: "Non profit marketing & operations tools",
         description: [
-          `DESCRIPTION`,
+          `As a programming co-director for the Seattle chapter of AIGA I was responsible for event production 
+          and general chapter engagement with the public. However, after a handful of years of being involved in 
+          varying on-the-ground capacities before taking a board position, I was able to see where we had 
+          stumbled operationally. So in the process of streamlining my planning, promoting and running events 
+          I built out structure on varying web platforms and adapted them into chapter wide processes.`,
+          `Implementing a digital portfolio of tools, the chapter handled ticketing and checkin on Eventbrite. 
+          Square readers were still on hand for any merch or drinks (with distributed gray accounts for volunteers' personal phones).`, 
+          `The national office had provided chapters a wordpress theme to use, but I found it to be unfocused. 
+          I took it upon myself to research and design a custom theme for the chapter. Desined in collaboration 
+          with Ben Hubbard it was built but eventually not used due to politics.`,
+          `In additional collaboration with my co-director Calvin Carter, we digitized internal processes to leverage 
+          Google Forms and data routed to the correct board member, and developed a server structure for shared 
+          resources on our Google Apps account.`,
+          `The geometric graphic work was a part of a membership rebrand from Kiss Me I'm Polish done at the same time.`,
         ],
         images: [
           "/projects/devmedium.png", 
@@ -399,18 +441,25 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "Studio Tours",
     featured: false,
     tags: [
-      "00",
+      "illustration",
+      "research",
+      "marketing",
+      "email",
+      "branding",
+      "community",
+      "dataviz",
     ],
     // link: "https://placeholdertech.in",
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "TITLE",
+        subtitle: "Open the doors & let the people in",
         description: [
-          `DESCRIPTION`,
+          `To keep the neighborhood tradition alive, I helped produce the Capitol Hill & Pioneer Square studio tours. 
+          Collaborations with Neil Palmer to build promotional and mobile mapping tools made it feel like a proper gallery walk.`,
         ],
         images: [
           "/projects/devmedium.png", 
@@ -420,7 +469,7 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "Pixels of Fury",
     featured: false,
     tags: [
       "00",
@@ -429,9 +478,20 @@ const userData = {
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "TITLE",
+        subtitle: "Live design fights & the magic of cardboard",
         description: [
-          `DESCRIPTION`,
+          `Shutterstock wanted the Seattle AIGA chapter to host one of its battles in the Pixels of Fury championship 
+          and I was able to play ringmaster at the lovely Makers Space for a night. Fueled by pizza, cupcakes and Hilliards beer, 
+          six local designers duked it out in front of creative directors from Tether and Digital Kitchen in three rounds of 
+          20 minute poster battles announced by Terry Marks. I built my own 3D cardboard & hot glue adaptation of the newly 
+          announced Adobe CC logo to have it disassembled in a festive smashing mere seconds after announcing the final winner. 
+          Luckily we had a proper crystal trophy, just in case.`,
+          `Built by Neil Palmer`,
+          `Photography from Erik Simkins`,
+          // `https://www.shutterstock.com/blog/design/design-inspiration/pixels-of-fury
+          // http://simkinsphotography.com/
+          // Whole photoset is available here -https://www.flickr.com/photos/aiga_seattle/sets/72157632061861162/
+          // https://www.linkedin.com/pub/neil-palmer/48/215/245`
         ],
         images: [
           "/projects/devmedium.png", 
