@@ -16,16 +16,16 @@ const userData = {
       // subtitle: "Content Performance Analysis",
       tags: [
         "ai",
-        "ml",
-        "react",
-        "product",
-        "uxui",
+        "automation",
         "branding",
         "dataviz",
         "email",
-        "automation",
-        "startup",
         "engineering",
+        "ml",
+        "product",
+        "react",
+        "startup",
+        "uxui",
       ],
       featured: true,
       // link: "https://tailwindmasterkit.com", dropping this to check if it links to the project page
@@ -79,22 +79,22 @@ const userData = {
     {
       title: "Metastream",
       tags: [
-        "founder",
-        "react",
-        "product",
-        "uxui",
-        "startup",
-        "engineering",
         "branding",
-        "dataviz",
-        "wireframes",
-        "userflows",
-        "research",
-        "sales",
         "business",
+        "dataviz",
+        "engineering",
+        "founder",
         "fundraising",
         "leadership",
+        "product",
+        "react",
+        "research",
+        "sales",
+        "startup",
         "teambuilding",
+        "uxui",
+        "userflows",
+        "wireframes",
       ],
       featured: true,
       // link: "https://tailwindmasterkit.com",
@@ -150,21 +150,21 @@ const userData = {
       title: "Lumedic",
       featured: true,
       tags: [
-        "web3",
+        "android",
         "angular",
         "blockchain",
-        "android",
+        "branding",
         "design system",
         "healthcare",
-        "research",
-        "wireframes",
-        "userflows",
-        "research",
         "product",
+        "prototype",
+        "research",
         "uxui",
-        "branding",
+        "userflows",
+        "web3",
+        "wireframes",
       ],
-      link: "https://placeholdertech.in",
+      // link: "https://placeholdertech.in",
       thumbURL: "/placeholdertech.png",
       sections: [
         {
@@ -175,14 +175,6 @@ const userData = {
             we pivoted to serve as a single use digital passport. Our product planning & research followed as the science & 
             politics evolved throughout the year, first as a time oriented test result passport and eventually also containing
             vaccine status card.`,
-            `The app was originally based on an existing structure from Connect.me that we audited from a user experience pov 
-            with the goal of creating a Holder & Verifier handshake scenario. My work centered around architecting the 
-            multimodal experience of permissions, mobile devices scanning QR codes on desktop web apps, and on each other’s 
-            devices, working with user expectations and building prototypes with my UX Research partner Jeanine Ledoux. 
-            In addition to serving as the daily scrum designer for the web app and both iOS & Android releases. `,
-            `Wireframing was done in Miro and Figma. The visual branding work was built on top of IBM’s Carbon design system. Illustrations by Smashing Ideas.
-            -
-            Available on iOS & Android`,
           ],
           images: [
             "/projects/devmedium.png", 
@@ -190,30 +182,29 @@ const userData = {
           ],
         },
         {
-          subtitle: "Section Title",
+          subtitle: "Process",
+          description: [
+            `The prototype was based on an existing structure from Connect.me, a blockchain engineering partner. I first audited the boilerplate app from a 
+            user experience pov with the goal of creating room for a Holder & Verifier handshake scenario, while obfuscating any extra steps that would
+            create a point of user confusion. My work centered around architecting the multimodal experience of permissions, mobile devices scanning QR 
+            codes on desktop web apps, and on each other's devices, working with user expectations and building prototypes with my UX Research partner 
+            Jeanine Ledoux.`,
+            `The prototype was first tested in Providence hospitals for staff returning to work, this provided data around how many checkpoints a staff member would
+            see throughout a day, how long the system would take to confirm a result, and who would need to be trained on any new hardware that needed to be implemented
+            operationally. In addition to serving as the daily scrum designer for the web app and both iOS & Android releases, I iterated on the messaging to 
+            positively respond to the available user data.`,
+            `Wireframing was done remotely in Miro and Figma to confirm that while we met the technical requirements to access and display on-chain data, we were also
+            meeting preexisting expectations of how medical workers share data. In tandem with an internal design system team, I helped to expand the visual branding work, 
+            built on top of IBM's Carbon ui, to include mobile and tablet oriented ui components.`,  
+            `Illustration work by Smashing Ideas. Previously available on iOS & Android`,
+          ],
           images: [
             "/projects/devmedium.png", 
             "/projects/devmedium.png",
             "/projects/devmedium.png",
             "/projects/devmedium.png",
           ],
-          description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
-          ]
-        },
-        {
-          subtitle: "Section Title",
-          images: [
-            "/projects/devmedium.png", 
-            "/projects/devmedium.png"
-          ],
-          description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
-          ]
+
         },
       ],
     },
@@ -221,54 +212,68 @@ const userData = {
       title: "Providence St. Joseph Health",
       featured: true,
       tags: [
-        "boop",
-        "React",
-        "Next.js",
-        "TailwindCSS",
-        "HeadlessUI",
-        "Heroicons",
-        "Framer Motion",
+        "branding",
+        "design system",
+        "healthcare",
+        "product",
+        "react",
+        "research",
+        "startup",
+        "uxui",
+        "userflows",
+        "video chat",
+        "wireframes",
       ],
-      link: "https://placeholdertech.in",
+      // link: "https://placeholdertech.in",
       thumbURL: "/placeholdertech.png",
       sections: [
         {
-          subtitle: "Section Title",
+          subtitle: "Video calling for the Emergency Room",
+          description: [
+            `My time with Providence Health & Services' Digital Innovation Group focused on two distinct digital product categories. 
+            First, due to the short availabilty of specialty doctors for treating acute health issues the innovation group was asked to 
+            research and implement an on-demand emergency room video call platform with remote diagnostic instruments, specifically targeting stroke treatment. 
+            This would allow remote staff to fill in for a local doctor and provide more comprehensive diagnoses and treatment plans than the existing 
+            practice of a voice call.`,
+            `Partnering with Sunny Lee & Kelly Elston to research Providence's established caregiver process, protocol, and hardware used in the ER 
+            for stroke cases we designed and tested low fidelity service workflows and case management tools. These were tested in a series of remote and 
+            in-person scenarios with the goal of reducing the time to treatment and increasing the quality of care. This work was done in tandem
+            with our enigneering team that started with developing the secure backend video call infrastructure and then transitioned into 
+            developing the frontend patient and doctor facing applications.`,
+            `Secondly, a quartet of established care services were rearchitected as a suite of 
+            Express Care options and brought together on a shared marketing & scheduling platform with a multitenant architecture.`,
+            `thing 2`,
+            `thing 3`,
+          ],
           images: [
             "/projects/devmedium.png", 
             "/projects/devmedium.png"
           ],
-          description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
-          ]
         },
         {
-          subtitle: "Section Title",
+          subtitle: "Process",
+          description: [
+            `I also helped develop a visual language for the suite of provider & patient healthcare tools. A team process of leveraging Abstract (git), 
+            Sketch (layout), Invision (public prototyping), Zeplin (internal prototyping), along with the Adobe Creative Cloud (production). The visual 
+            design system was based on Google's Material language, but out of the box it felt too cold for the healthcare world. After partnering with 
+            engineering, we developed a solution of taking React Toolbox and subbing in a humanistic typeface, rounded some corners and generally opened 
+            up the vanilla styles (more padding). By working with these tools, we were able to more fluently migrate interaction & visual work into React 
+            components via direct collaboration in Storybook.`,
+            `Interactive prototype (Invision / Craft)
+            -
+            Team presentations
+            Integrated Consumer Experience - Web & Native design preview
+            Scheduling & Registration wireframe review
+            Account Management wireframe review
+            -
+            Available Providence locations`,
+          ],
           images: [
             "/projects/devmedium.png", 
             "/projects/devmedium.png",
             "/projects/devmedium.png",
             "/projects/devmedium.png",
           ],
-          description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
-          ]
-        },
-        {
-          subtitle: "Section Title",
-          images: [
-            "/projects/devmedium.png", 
-            "/projects/devmedium.png"
-          ],
-          description: [
-            `thing 1`,
-            `thing 2`,
-            `thing 3`,
-          ]
         },
       ],
     },
