@@ -769,7 +769,7 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "Selection of work from school",
     featured: false,
     tags: [
       "00",
@@ -780,7 +780,16 @@ const userData = {
       {
         subtitle: "TITLE",
         description: [
-          `DESCRIPTION`,
+          `Posters
+          Hallie Anderson portfolio
+          Blackspot show
+          Design Day 09
+          Klipsun magazine
+          Simkins show poster
+          This is Us
+          Unosolo
+          Short Shorts and Lawn Sports
+          This Film is Free`,
         ],
         images: [
           "/projects/devmedium.png", 
@@ -789,48 +798,27 @@ const userData = {
       },
     ],
   },
-  {
-    title: "PROJECT",
-    featured: false,
-    tags: [
-      "00",
-    ],
-    // link: "https://placeholdertech.in",
-    thumbURL: "/placeholdertech.png",
-    sections: [
-      {
-        subtitle: "TITLE",
-        description: [
-          `DESCRIPTION`,
-        ],
-        images: [
-          "/projects/devmedium.png", 
-          "/projects/devmedium.png"
-        ],
-      },
-    ],
-  },
-  {
-    title: "PROJECT",
-    featured: false,
-    tags: [
-      "00",
-    ],
-    // link: "https://placeholdertech.in",
-    thumbURL: "/placeholdertech.png",
-    sections: [
-      {
-        subtitle: "TITLE",
-        description: [
-          `DESCRIPTION`,
-        ],
-        images: [
-          "/projects/devmedium.png", 
-          "/projects/devmedium.png"
-        ],
-      },
-    ],
-  },
+  // {
+  //   title: "PROJECT",
+  //   featured: false,
+  //   tags: [
+  //     "00",
+  //   ],
+  //   // link: "https://placeholdertech.in",
+  //   thumbURL: "/placeholdertech.png",
+  //   sections: [
+  //     {
+  //       subtitle: "TITLE",
+  //       description: [
+  //         `DESCRIPTION`,
+  //       ],
+  //       images: [
+  //         "/projects/devmedium.png", 
+  //         "/projects/devmedium.png"
+  //       ],
+  //     },
+  //   ],
+  // },
   ],
   about: {
     title:
