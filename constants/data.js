@@ -231,14 +231,14 @@ const userData = {
           subtitle: "Video calling for the Emergency Room",
           description: [
             `My time with Providence Health & Services' Digital Innovation Group focused on two distinct digital product categories. 
-            First, due to the short availabilty of specialty doctors for treating acute health issues the innovation group was asked to 
+            First, due to the short availability of specialty doctors for treating acute health issues the innovation group was asked to 
             research and implement an on-demand emergency room video call platform with remote diagnostic instruments, specifically targeting stroke treatment. 
             This would allow remote staff to fill in for a local doctor and provide more comprehensive diagnoses and treatment plans than the existing 
             practice of a voice call.`,
             `Partnering with Sunny Lee & Kelly Elston to research Providence's established caregiver process, protocol, and hardware used in the ER 
             for stroke cases we designed and tested low fidelity service workflows and case management tools. These were tested in a series of remote and 
             in-person scenarios with the goal of reducing the time to treatment and increasing the quality of care. This work was done in tandem
-            with our enigneering team that started with developing the secure backend video call infrastructure and then transitioned into 
+            with our enigineering team that started with developing the secure backend video call infrastructure and then transitioned into 
             developing the frontend patient and doctor facing applications.`,
             `The second effort was rearchitecting a quartet of established care services as a suite of Express Care options on a shared marketing 
             & scheduling platform with a multitenant architecture. This leveraged the video chat infrastructure and was designed to further establish
@@ -501,7 +501,7 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "Decibel Festival Opening Ceremony",
     featured: false,
     tags: [
       "00",
@@ -510,9 +510,16 @@ const userData = {
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "TITLE",
+        subtitle: "A poster show for the people, by the people",
         description: [
-          `DESCRIPTION`,
+          `I produced the first & second annual official Decibel Festival Popup Artshows featuring over 40 local poster designers. 
+          The 2013 centennial show called upon the talents of Benajmin Van Citters, Nick Bartoletti, Chris Blohm and Patrick Wright 
+          to projection map and augment the whole show (from window displays, to rotating poster frames, to dancing skeleton tracking via Kinnect). 
+          One monday night quadruple kegger later, it was the highest attended opening event in the festival's history.`,
+          `2014 marked the introduction of EMP Museum's partnership with Decibel and made the poster festival a part of the Opening Gala in the Skychurch. 
+          Email is often overlooked, but when approached at a person-to-person scale, it can be a powerful and honest driving force to inspire being 
+          a part of a poster show full of your friends. All it takes is a Google Form, a spreadsheet, Mailchimp's merge tags, a heavy dose of 
+          heartfelt honesty and you're just a pushpin supply away from an artshow.`,
         ],
         images: [
           "/projects/devmedium.png", 
@@ -522,7 +529,7 @@ const userData = {
     ],
   },
   {
-    title: "PROJECT",
+    title: "Amazon Fire OS ",
     featured: false,
     tags: [
       "00",
@@ -531,9 +538,228 @@ const userData = {
     thumbURL: "/placeholdertech.png",
     sections: [
       {
-        subtitle: "TITLE",
+        subtitle: "Translating Material features for Fire tablet",
         description: [
-          `DESCRIPTION`,
+          `As a member of the Digital Devices Group, I helped migrate the release of Android P into Amazon's Kindle tablet operating system. 
+          I developed ux adaptations & updated visual treatments of existing and net new system level features including the architecture 
+          of the home app launcher, content organization & recommendations, search results, top toggle, status alerts, and dark theme treatments.
+          Along with balancing the performance on a different hardware spec and different appstore architecture of the Amazon product ecosystem.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "Google Meet Detours",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "The web meets the desktop meets the telephone",
+        description: [
+          `As a member of the Hangouts Meet team, I worked on connections alternatives to better serve customers 
+          with infrastructure limitations and explore hardware enhanced performance. My role was two-fold, one in helping to prototype 
+          a downloadable Windows & Mac adaptation of the existing webapp. This required collaboration with the Material team to discuss appropriate 
+          translations of the design system language outside of the browser. Including early visual explorations of dark mode on the desktop.`,
+          `My secondary role was in designing a more robust web-to-phone connection that is currently a business feature in production. 
+          This allows a user to join a meeting with the audio of their phone and the video of their computer which required direct collaboration
+          with a team of engineers to understand the limitations of the existing multimedia infrastucture and how to improve it with shared goals.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "Bakedin",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "An image wrapper for sharing",
+        description: [
+          `As a product designer for Stripes39, I balanced needs from the marketing and engineering teams to develop an
+          identity and product positioning for an embeddable image wrapper tool targeted at infographic marketing. 
+          Backed by an analytics platform to track where the image ended up being shared. As well as providing author, data sources, & promotion tools.`,
+          `This was about the same time that Pinterest would have been a closed beta and there was no shared tooling around image makrketing. I have a distinct
+          memory of locking myself in a room, filling a whiteboard of sketches for how it should work, what we needed to enable other companies to use it, '
+          branding & naming options, and just emerging from the room with a plan ready to go.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "Yakitate",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "Freshly Baked",
+        description: [
+          `Identity system for an exhibition of emerging Japanese product designers at Dwell Magazine's 2011 Dwell on Design Conference in the LA Convention Center.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "Awake Chocolate",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "Directions to the caffeinated chocolate",
+        description: [
+          `Digital cartography platforms are notably difficult to theme visually due to the quantity of information presented and 
+          how they're rendered. I asked myself just how far could I push Google Maps with a simple JSON styling tool and GPS locationing. 
+          Honestly that led to me pushing myself to the brink of copy & paste insanity when I needed to geocode all the gas stations 
+          across greater Ontario that carried these.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "Microsoft Basel Concept",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "A gridnik from redmond",
+        description: [
+          `While at Wunderman I got the chance to work with a conceptual Microsoft design language meant to be flat like Metro, but more typography oriented`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "LYFE Foods & Kitchen",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "Everything is part of your brand",
+        description: [
+          `Tether was the agency of record for Lyfe Foods, both a restaurant & available in frozen aisles. 
+          I played the roles of web master for the marketing & online ordering site, as well as helping define the 
+          modular visual language for email campaigns, the mobile website, and a living wall of user and first party content.`,
+          `If brands are able to connect on a realistic person to person level, then they truly are part of a lifestyle. 
+          Context of connection, just think through the whole of the system and your internet will keep pace.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "Microsoft Learning Platform",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "Holistic classroom surface",
+        description: [
+          `When Microsoft approached Tether to concept a digital learning platform that leveraged the capabilities 
+          of its Surface tablets, the team got out the sticky notes & whiskey and went to town. The shared space of 
+          collaborative writing, watching, and personal data management is still rich with potential despite the platform
+          not taking off.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "XBOX One Smartglass",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "Second screen ftw",
+        description: [
+          `While a part of the Xbox One R&D group I helped produce the TV Guide app to universally control 
+          your watching experience. I as the primary designer available to engineering teams for simultaneous 
+          development on iOS / Android / Microsoft phone & tablet for a 10-foot controller experience, voice, and Kinnect.`,
+        ],
+        images: [
+          "/projects/devmedium.png", 
+          "/projects/devmedium.png"
+        ],
+      },
+    ],
+  },
+  {
+    title: "A Few from Western",
+    featured: false,
+    tags: [
+      "00",
+    ],
+    // link: "https://placeholdertech.in",
+    thumbURL: "/placeholdertech.png",
+    sections: [
+      {
+        subtitle: "Graduating showcase in the Tether Gallery",
+        description: [
+          `In the North, near an arboretum strewn with brick, was a small tower dedicated to learning the craft of applied design thinking. 
+          Problem was, no one ventured up there much. I was able to pull together an extra graduating show, planned with a handful of students, 
+          in Seattle's Pioneer Square at the Tether Gallery. Single projects from 16 seniors, packed house, ridiculous guest book, what's better?`,
+          `Design and production in collaboration with Riley Hoonan, Glenn Newcomer, photography from Erik Simkins. Special thanks to Daniel Petrzelka 
+          & Bebet Caguin of Tether and the WWU Class of 2010.`,
         ],
         images: [
           "/projects/devmedium.png", 
